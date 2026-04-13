@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <header class="w-full  px-6 py-4 md:px-12">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+        
+        <div class="flex items-center space-x-2 cursor-pointer">
+            <svg width="30" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-black">
+                <path d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7z"></path>
+                <path d="M19 20H5"></path>
+            </svg>
+            <span class="text-xl font-black tracking-tighter uppercase">King</span>
+        </div>
+
+        <nav class="hidden md:flex items-center space-x-10 text-black font-medium">
+            <a href="#" class="hover:opacity-70 transition">Shop</a>
+            <a href="#" class="hover:opacity-70 transition">Brands</a>
+            <a href="#" class="hover:opacity-70 transition">Contact us</a>
+        </nav>
+
+        <div class="flex items-center">
+            <button class="bg-[#1a1818] text-white px-8 py-2.5 rounded-full font-medium hover:bg-black transition">
+                Sign up
+            </button>
+            
+            <button class="ml-4 md:hidden text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+</header>
+
+<div class="w-[900px] h-[554px]  flex justify-end items-center">
+
+  <h1 class="text-[27px] font-bold text-white  w-[941px] ml-[200px]">Exquisite Watches Choose Luxury,Choose 
+    <br>
+
+  <p class="text-black font-bold text-[13px]">  Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship - watch</p>
+  <br>
+  <span>$430.00</span>
+<br>
+  <a href="#">
+    <img src="./images/Frame 6.png" alt="">
+  </a>
+</h1>
+
+
+
+
+  <!-- Slider main container -->
+<div class="swiper flex justify-end items-end w-[400px] h-[500px] ">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+           <!-- Slides -->
+      <div class="swiper-slide"><img src="./images/Watches.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/Watches (1).png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/Frame 26.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/Watches (2).png" alt=""></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    
+</div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
